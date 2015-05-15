@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+
+body {background-color: #a7a09a; width:750px; margin-left: auto; margin-right: auto; margin-top:-0.5%;}
+
+H1 {font-family: Gabriela; font-size: 42pt; color:green; background-color:#ddd; padding:5px;}
+#okvir {background-color: #99c;position:relative;height:465px}
+
+#meni {height:30px;width:750px;background-color: #c99;position:absolute; top:80px}
+
+ul{list-style-type:none;margin:0;padding:5px;}
+li{display:inline;}
+
+#glavni {background-color:#9c9; width:515px;position:relative;top:-10px;padding-bottom:5px;}
+#glavni>h2{padding-left:10px;padding-right:10px;}
+h2{padding-top:10px;}
+#glavni>p{padding-left:10px;padding-right:10px;}
+#desno {width:215px;padding:10px; background-color: #c9c;position:absolute;top:110px;right:0; }
+
+#podnozje>p {background-color:#cc9;padding:5px;position:relative;bottom:30px; }

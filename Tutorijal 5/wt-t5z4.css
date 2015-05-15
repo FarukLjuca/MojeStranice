@@ -1,0 +1,30 @@
+table#tabelaStudenata {
+    text-align: center;
+}
+
+div#tabela, div#funkcije {
+    float: left;
+    padding: 20px;
+}
+
+div#promjena, div#brisanje {
+    display: none;
+}
+
+div#dodavanje, div#promjena, div#brisanje {
+    padding-top: 20px;
+}
+
+button#dodaj, button#promjeni, button#obrisi {
+    text-align: center;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+select#idBrisanje, select#idPromjena {
+    width: 70px;
+}

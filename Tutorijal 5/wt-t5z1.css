@@ -1,0 +1,9 @@
+table {
+    border: 1px solid black;
+}
+#podaci {
+    border-top: 1px solid black;
+}
+a {
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+h1 {
+    color: red;
+    font-weight: bold;
+    font-family: arial;
+    font-style: italic;
+    text-align: right;
+}
+h2 {
+    font-size: xx-small;
+    font-weight: bold;
+    font-family: arial;
+    font-style: italic;
+    text-align: right;
+    position: relative;
+    top:-35px;
+    left:-2px;
+}
+p.citat {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightgrey;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-style: italic;
+    font-size: small;
+    text-align: justify;
+}
+ul.moja_lista {
+    list-style-image: url("http://www.w3schools.com/cssref/sqpurple.gif");
+}
+#link_nazad {
+    position: absolute;
+    top:20px;
+    left:20px;
+    border: 1px solid black;
+    padding: 3px;
+    background-image: url('http://www.tizag.com/pics/cssT/listArrow.gif');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+#link_nazad > a {
+    text-decoration: none;
+    color:red;
+}
+p, ul {
+    position: relative;
+    top: -30px;
+}
+ul > li {
+    position: relative;
+    top: -10px;
+}
+p:nth-last-child(2) {
+    position: relative;
+    top: -50px;
+}

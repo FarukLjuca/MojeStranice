@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+    font-weight: bold;
+    font-family: arial;
+    font-style: italic;
+}
+h2 {
+    color:white;
+    background-color: blue;
+    text-align: right;
+}
+p {
+    color: green;
+    text-indent: 50px;
+}
+i {
+    color: blue;
+}
+a {
+    color:red;
+    background-color: lightgray;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

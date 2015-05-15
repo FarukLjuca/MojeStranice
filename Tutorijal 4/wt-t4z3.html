@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="ba">
+    <meta charset="UTF-8">
+    <title>Tutorijal 4, Zadatak 3</title>
+    <style>
+        textarea {
+            height: 150px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<textarea id="tekst"></textarea>
+<button onclick="pretvori()">Pretvori</button>
+
+<script>
+    function pretvori() {
+        var patern = /<[\w\/]+>/ig;
+        var tekst = document.getElementById("tekst").value;
+        var noviTekst = tekst.replace(patern, "").replace(/&amp;/g, "&").replace(/&nbsp;/g, " ").replace(/&quot;/g, '"');
+        document.getElementById("tekst").value = noviTekst;
+    }
+</script>
+</body>
+</html>

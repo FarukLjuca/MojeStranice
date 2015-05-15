@@ -1,0 +1,8 @@
+ul {
+    list-style-image: url("http://www.gsd.harvard.edu/gis/manual/local/treeview_images/minus.gif");
+    display: none;
+}
+body > ul {
+    list-style-image: url("http://www.gsd.harvard.edu/gis/manual/local/treeview_images/plus.gif");
+    display: block;
+}
