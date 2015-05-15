@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 15, 2015 at 05:52 PM
+-- Generation Time: May 15, 2015 at 07:38 PM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `komentar` (
   `vrijeme` timestamp NOT NULL,
   PRIMARY KEY (`id`),
   KEY `vijest` (`vijest`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_slovenian_ci AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_slovenian_ci AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `komentar`
@@ -42,7 +42,8 @@ CREATE TABLE IF NOT EXISTS `komentar` (
 
 INSERT INTO `komentar` (`id`, `vijest`, `tekst`, `autor`, `vrijeme`) VALUES
 (1, 2, 'Toooo kralju, tako je :D', 'Ljuca Faruk', '2015-05-15 15:08:53'),
-(2, 1, 'Bila je dobra tekma :D', 'Ljuca Faruk', '2015-05-15 15:25:24');
+(2, 1, 'Bila je dobra tekma :D', 'Ljuca Faruk', '2015-05-15 15:25:24'),
+(3, 2, 'Predobro :D', 'Ljuca Faruk', '2015-05-15 17:35:58');
 
 -- --------------------------------------------------------
 
