@@ -1,0 +1,190 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.Uvod test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.Presjek provodnika I kabela (proračun presjeka vodiča)
+
+Vodovi za napajnje nekog trošila su praktično svi vodovi na putu od kućnog priključka na distributivnu mrežu do samog trošila u objektu:
+napojni vod objekta od KPO do MO
+napojni vod od MO do SR
+napojni vod od SR do trošila (strujni krug trošila)
+*Prije određivanja voda ili kabela za strujni krug trošila moraju biti poznati osnovni polazni podaci, i to namjena prostorije u kojoj će raditi trošilo, snaga I vrsta opterećenja trošila, lokacija trošila u odnosu na napojni razvodni ormar, dozvoljeni pad napona za dato trošilo i uticaj okoline na random mjestu trošila (mehanički, termički, hemijski, prašina, sunčevo zračenje..)
+Pri proračunu napojnih elekričnih vodova postavljaju se sljedeći  osnovni zadaci:
+a)da se izabere tip vodova i način njihovog polaganja
+b)da se uradi proračun presjeka vodiča s obzirom na pad napona
+c)da se provjeri da li se vodič uslijed pogonske struje pregrijava
+d)da se provjeri da li izabrani vod ima mehaničku izdržljivost s obzirom na uticaje okoline
+
+a)  Tip vodova i način njihovog polaganja ovisi od lokacije objekta, opreme, vrsti struje, napona, zaštite, vrsti trošila u objektu i njihovoj snazi, načina priključka objekta, lokaciji razvodnih ormara i strujnih krugova i osigurača, uticaja okoline.
+b)  Pri proračunu presjeka voda za neko trošilo osnovni podatak je nazivna snaga, ali bitni podaci su i nazivni napon, frekvencija, faktor snage i stepen iskorištenja. Ovi podaci su bitni za proračun presjeka voda strujnog kruga koji povezuje trošilo sa razvodnom tablom (razdjelnikom).
+     Razvodna tabla ili razdjelnik u stanu je napojno mjesto za više strujnih krugova tj. raznih trošila (jedne gupe trošila, npr. trošila jednog stana). Pri proračunu presjeka napojnog voda od MO do razvodne table ili razdjelnika stana osnovni podatakak je vršna snaga Pv koja je manja od instalirane snage. Pod instaliranom snagom Pi podrazumjevamo električnu snagu koja je potrebna za napajanje svih trošila spojenih na razvodnu tablu kada bi oni istovremeno bili i uključeni. Međutim, rijetko se događa da se instalirana snaga uzima kao snaga koju vodič mora da podnese za napajanje jedne grupe trošila. U praksi se ovo opterećenje nikad ne dostiže a stvarno najveće opterećenje nazivamo vršno opterećenje. Napojni vod od mjernog ormarića do razvodne table (razdjelnika) znači nije opterećen s instaliranom snagom nego s vršnom snagom koja je manja.
+I na kraju ostaje proračun za napojni vod objekta, koji povezuje KPO i MO a koji napaja obično više grupa trošila (više stanova u zgradi). Vršno opterećenje koje je mjerodavno za proračun napojnog voda objekta (zgrade) Pvo nije jednako zbiru svih vršnih opterećenja stanova Pvl+Pv2+.. .Pvn. 
+c) Da bi provjerili da li se vodič prekomjerno zagrijava potrebno je znati način polaganja voda (tip razvoda A, B, C...) i iz tabele 8.3 ili 8.4 odrediti najveću trajno dozvoljenu struju u tom slučaju. Ako je struja koja protiče kroz taj vodič (to je struja trošila i može se izračunati), manja od trajno dozvoljene struje po tabeli, sigurno je ispunjen termički uslov i neće biti prekomjernog zagrijavanja.
+d) Nekada mehanički razlozi zahtijevaju veći presjek vodiča o čemu treba voditi računa. Znači u tom slučaju treba uraditi korekciju i povećati presjek.
+
+Tok proračuna presjeka vodiča prema zadanom padu napona:
+1. Izračunati vršno opterećenje voda
+2. Izračunati presjek jednofaznog ili trofaznog voda prema zadanom padu napona:
+(3% od TS do KPO; 1% od KPO do MO; od 2% do 4% od MO do krajnjeg trošila)
+
+gdje je: U=220-230V fazni napon	gdje je U—380-400V linijski napon
+Usvaja se prvi veći standardni presjek (npr. proračunom se dobije 3,15 a usvaja se 4mm2) a to znači da je sigurno ispunjen uslov da je pad napona na ovom vodu manji od dozvoljenog (znači potrebno je povećavati presjek vodiča sve dok pad napona ne spadne ispod dopuštene granice).
+3. Iz tabela 8.3 i 8.4 možemo očitati i najveću trajnu struju sa kojom se može opteretiti izračunati presjek S. Da bi provjerili da li će se vodič prekomjerno zagrijavati potrebno je iz vršnog opterećenja izračunati jačinu struje koja protiče kroz vod (jednofazna I=P/ U cosϕ ili trofazna I=P/1,73 U cosϕ) i uporediti je s najvećom trajnom strujom iz tabele 8.3 ili 8.4.Ako je struja koja protiče kroz presjek voda manja od one koju očitamo iz tabele, znači da se vodič neće prekomjerno zagrijavati. U protivnom'treba povećati presjek.
+4.Na kraju, ukoliko je to potrebno, koriguje se presjek vodiča prema mehaničkom kriteriju tako da možemo biti sigurni da će odabrani vod izdržati sva mehanička naprezanja koja ga očekuju u radu.
+Standardom su određeni najmanji dozvoljeni presjeci vodiča:
+izolirani vodovi za stalno polaganje namijenjeni za rasvjetu : 1,5 mm2 Cu
+izolirani vodovi za stalno polaganje namijenjeni za priključnice : 2,5 mm2 Cu
+napojni vod od mjernog ormarića do stanskog razdjelnika : 6 mm2 Cu
+napojni vod od priključnog ormarića do mjernog ormarića : 10 mm2 Cu
+SKS za nadzemni kućni priključak : 16 mm2 Al
+
+
+2.Odabiranje osigurača
+Osigurač je sklopni aparat koji služi za zaštitu instalacionih vodova od velikih struja kratkog spoja a u definisanim slučajevima i od preopterećenja (bilo namjernog ili slučajnog). Osigurać se stavlja na pocetku provodnika u mjeru dolaska struje. Ukoliko se u instalaciji, neposredno pored osigurača, postavlja i prekidač savjetuje se da se osigurač postavi iza prekidača, jer se tada osiguraš mjenja pri otvorenom prekidaču i nije pod naponom (Slika 9.1.). Zaštita se može izvesti za dvožicnu mrežu dvopolno ili jenopolno. Za trofaznu struju „nula“ se ne stavlja pod zaštitu.
+
+
+
+Osigurač vrši zaštitu provodnika prekidom strujnog kola u kome je montiran. Ovaj prekid može se vršiti topljenjem umetka u osiguraču, elektromagnetnim dejstvom ili termičkim dejstvom kojim se savija bimetalna traka.
+
+Prema načinu prekidanja strujnog kola u osiguraču oni se dijele na: topljive i automatske.
+
+Prema IEC i drugima važećim standardima osigurači u instalacijama treba da budu tako konstruisani:
+-da se prekid kola vrši u zatvorenom vatrostalnom prostoru,
+-da osigurač ima uočljiv pokazivač prekida, i
+-da je osigurana strujna nezamjenljivost.
+
+
+
+Nazivne karakteristike osigurača
+
+Nazivni napon osigurača je najniža vrijednost nazivnog napona njegovih dijelova (držač osigurača, topljivi umetak). To znači da nazivni napon topljivog umetka može biti različit (veći) od nazivnog napona držača osigurača u kojem ce topljivi umetak biti upotrijebljen. Standardne vrijednosti nazivnih napona su prikazane u Tabeli 9.1. 
+
+
+
+
+Nazivna struja topljivog umetka i držača osigurača mora predstavljati vrijednosti prikazane u Tabeli 9.2.
+
+
+
+
+
+Nazivna struja držača osigurača mora biti izabrana iz niza nazivnih struja topljivih umetaka ako nije drugačije navedeno u posebnim standardima za određenu vrstu osigurača.
+
+Karakteristike vrijeme-struja daju se za trajanje topljenja duže od 0,1 s. Struja se predstavlja na apcisi, a vrijeme na ordinati. Za obje kordinate koriste se logaritamska podjela. Karakteristike vrijeme-struja topljivog umetka ovisi od konstrukcije, kao i, za određeni topljivi umetak, od temeprature okolnog zraka i uvjeta hladenja. Ukoliko nije navedeno, podrazumjeva se da se karakterisike odnose na temperaturu okolnog zraka od 20° C. U vezi sa djelovanjem topljivog umetka definiraju se konvencionalno vrijeme i konvencionalna struja.
+
+
+ Pri tome razlikuju se:
+- konvencionalna struja netopljenja ( Inf ) - utvrđena vrijednost struje, koju topljivi umetak može da podnese tokom utvrđenog (konvencionalnog) vremena bez topljenja, i
+- konvencionalna struja topljenja ( If ) - utvrđena vrijednost struje koja izaziva djelovanje topljivog umetka tokom utvrđenog (konvencionalnog) vremena.
+
+Konvencionalna vremena i konvecionalne struje prikazane su u tabeli: 
+
+
+
+
+Nazivna moć prekidanja topljivog umetka je vrijednost (efektivna za naizmjeničnu struju) očekivane struje koje osigurač može da prekine za dati napon pod određenim uvjetima. Nazivna moć prekidanja daje proizvodač u odnosu na nazivni napon. Vrijednost najmanje nazivne moći prekidanja utvrđene su u posebnim standardima za odredenu vrstu osigurača.
+
+Ugradnja osigurača
+
+Osigurači su naprave koji štite vodove i kablove od preopterećenja i kratkih spojeva automatskim isključivanjem napajanja. Postavljaju se na početku strujnog kola. Kada se u tom strujnom kolu pojavi greška (proboj izolacije ili kratak spoj) djelovanjem osigurača kolo se prekida, kvar se lokalizuje i ostatak instalacije nesmetano nastavlja rad.
+
+
+
+
+
+Propisima je određeno u kojim vremenima i kod kojih struja pojedini osigurač mora prekinuti strujni krug a što se provjerava iz termičkih karakteristika tj. krivulja koje svaki proizvođač daje uz svoje osigurače.
+Kod dimenzioniranja osigurača, osim struje trošila kojeg šđtimo kao bitnog elementa (termičko trošilo, elektromotor i druga), potrebno je u mrežama voditi računa o zaštiti npr. vodova, kablova, o strujama kratkog spoja na mjestu ugradnjeo sigurača kao i o selektivnosti. Selektivnost znači da proradi prvo osigurač koji je najbliži mjestu kvara. Ako taj osigurač iz bilo kog razloga ne reagira na povećanu struju, mora se aktivirati prvi poslije njega idući vodičem od mjesta kvara prema izvoru napajanja. Zbog toga osigurači koji su spojeni u seriji potrebno je da se njihovi ulošci (patrone) razlikuju za dva strujna stupnja.
+Na početku jedne instalacije uvijek su glavni osigurači najveće nazivne struje. Kako se grananjem instalacije smanjuje presjek vodiča, smanjuje se i nazivna struja osigurača, a krajnji osigurači u strujnim krugovima najviše udaljenim od glavnih osigurača su i najmanje nazivne struje. U slučaju kratkog spoja prvo će djelovati osigurač najbliži mjestu kvara, a ostali osigurači neće djelovati jer je to za njih samo kratkotrajno preopterećen je.
+
+Osigurač se mora postaviti:
+na početku svakog neuzemljenog vodiča (npr. na početku svakog faznog vodiča),
+na mjestima gdje se mijenja presjek vodiča ili gdje se prelazi na odvojak s manjim presjekom (ako je duljina vodiča promjenjenog presjeka manja od 1m nije potrebno osigurati je tj. postaviti osigurač),
+osigurači se obično postavljaju centralizirano za više strujnih krugova, na pristupačnom mjestu (npr. stanski razdjelnik se postavlja iznad ulaznih vrata stana).
+
+Zabranjeno je postaviti osigurač:
+u vodič za pogonsko uzemljenje,
+u zaštitne ili nul-vodiče višefaznih vodova,
+u strujne krugove gdje bi pregaranjem osigurača moglo doći do neke štete ili opasnosti (npr. u uzbudnom krugu porednog motora gdje bi došlo do povećanja brzine rotora pri prekidu tog kruga; u strujni krug napajanja elektromagnetskih dizalica; u strujni krug sekundara strujnih transformatora),
+u blizini lako zapaljivih predmeta.
+
+
+
+
+
+
+
+
+
+Klasifikacija osigurača
+
+Prema načinu prekidanja strujnog kola u osiguraču oni se dijele na: topljive i automatske.
+
+TOPLJIVI OSIGURAČI
+
+Topljivi umetak (element koji se zamjenjuje poslije djelovanja osigurača) jeste dio osigurača koji treba da se istopi kada osigurač proradi. U praksi se još uvijek masovno koriste stare oznake osigurača sa topljivim umetkom (skraćeno: osigurači). Prema IEC i drugima važećim standardima osigurači se, u općem slucaju, dijele prema:
+1. konstrukciji, i
+2. karakteristikama djelovanja.
+
+Podjela osigurača prema konstrukciji:
+
+--Podjela osigurača prema konstrukciji (topljivi instalacioni osigurač)
+
+Zaštita provodnika od preopterećenja tj. struja kratkog spoja načelno se izvodi na taj način što se izabrano mjesto provodnika namjerno oslabi ubacivanjem komada tanke žice. Ova se tanka žica istopi prije nego što zaštičen provodnik dobije nedozvoljenu temperaturu.
+Ova žica je od srebra, cinka ili drugog metala ili legure. Pri opterećenju ova se žica zagrije i istopi, zbog čega se ovakav osigurač naziva topljivim osiguračem.
+
+U konstruktivnom pogledu topljivi osigurači izrađuju se u slijedećim vrijednostima:
+- instalacioni topljivi osigurači tipa D, koji se nazivaju instalacionim osiguračima na zavrtanj,
+- inastalacioni osigurači tipa B, koji se nazivaju i osiguračima sa lamelom,
+- minijaturni osigurači, koji se neposredno ugrađuju na neke prijemnike, i
+- niskonaponski topljivi osigurači velike prekidne moći, koji se nazivaju i instalacionim visokoućinskim osiguračima ili NV-osiguračima.
+
+-Osigurači tipa D
+
+
+
