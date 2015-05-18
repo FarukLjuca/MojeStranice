@@ -23,7 +23,7 @@
 
 
 
-1.Uvod
+1.Uvod 
 
 
 
@@ -139,7 +139,7 @@ Osigurači su naprave koji štite vodove i kablove od preopterećenja i kratkih 
 
 
 Propisima je određeno u kojim vremenima i kod kojih struja pojedini osigurač mora prekinuti strujni krug a što se provjerava iz termičkih karakteristika tj. krivulja koje svaki proizvođač daje uz svoje osigurače.
-Kod dimenzioniranja osigurača, osim struje trošila kojeg šđtimo kao bitnog elementa (termičko trošilo, elektromotor i druga), potrebno je u mrežama voditi računa o zaštiti npr. vodova, kablova, o strujama kratkog spoja na mjestu ugradnjeo sigurača kao i o selektivnosti. Selektivnost znači da proradi prvo osigurač koji je najbliži mjestu kvara. Ako taj osigurač iz bilo kog razloga ne reagira na povećanu struju, mora se aktivirati prvi poslije njega idući vodičem od mjesta kvara prema izvoru napajanja. Zbog toga osigurači koji su spojeni u seriji potrebno je da se njihovi ulošci (patrone) razlikuju za dva strujna stupnja.
+Kod dimenzioniranja osigurača, osim struje trošila kojeg štitimo kao bitnog elementa (termičko trošilo, elektromotor i druga), potrebno je u mrežama voditi računa o zaštiti npr. vodova, kablova, o strujama kratkog spoja na mjestu ugradnjeo sigurača kao i o selektivnosti. Selektivnost znači da proradi prvo osigurač koji je najbliži mjestu kvara. Ako taj osigurač iz bilo kog razloga ne reagira na povećanu struju, mora se aktivirati prvi poslije njega idući vodičem od mjesta kvara prema izvoru napajanja. Zbog toga osigurači koji su spojeni u seriji potrebno je da se njihovi ulošci (patrone) razlikuju za dva strujna stupnja.
 Na početku jedne instalacije uvijek su glavni osigurači najveće nazivne struje. Kako se grananjem instalacije smanjuje presjek vodiča, smanjuje se i nazivna struja osigurača, a krajnji osigurači u strujnim krugovima najviše udaljenim od glavnih osigurača su i najmanje nazivne struje. U slučaju kratkog spoja prvo će djelovati osigurač najbliži mjestu kvara, a ostali osigurači neće djelovati jer je to za njih samo kratkotrajno preopterećen je.
 
 Osigurač se mora postaviti:
@@ -168,7 +168,7 @@ Prema načinu prekidanja strujnog kola u osiguraču oni se dijele na: topljive i
 TOPLJIVI OSIGURAČI
 
 Topljivi umetak (element koji se zamjenjuje poslije djelovanja osigurača) jeste dio osigurača koji treba da se istopi kada osigurač proradi. U praksi se još uvijek masovno koriste stare oznake osigurača sa topljivim umetkom (skraćeno: osigurači). Prema IEC i drugima važećim standardima osigurači se, u općem slucaju, dijele prema:
-1. konstrukciji, i
+1. konstrukciji 
 2. karakteristikama djelovanja.
 
 Podjela osigurača prema konstrukciji:
@@ -178,13 +178,177 @@ Podjela osigurača prema konstrukciji:
 Zaštita provodnika od preopterećenja tj. struja kratkog spoja načelno se izvodi na taj način što se izabrano mjesto provodnika namjerno oslabi ubacivanjem komada tanke žice. Ova se tanka žica istopi prije nego što zaštičen provodnik dobije nedozvoljenu temperaturu.
 Ova žica je od srebra, cinka ili drugog metala ili legure. Pri opterećenju ova se žica zagrije i istopi, zbog čega se ovakav osigurač naziva topljivim osiguračem.
 
-U konstruktivnom pogledu topljivi osigurači izrađuju se u slijedećim vrijednostima:
-- instalacioni topljivi osigurači tipa D, koji se nazivaju instalacionim osiguračima na zavrtanj,
-- inastalacioni osigurači tipa B, koji se nazivaju i osiguračima sa lamelom,
-- minijaturni osigurači, koji se neposredno ugrađuju na neke prijemnike, i
+U konstruktivnom pogledu topljivi osigurači se izrađuju u slijedećim vrijednostima:
+- instalacioni topljivi osigurači tipa D, koji se nazivaju instalacionim osiguračima na zavrtanj
+- inastalacioni osigurači tipa B, koji se nazivaju i osiguračima sa lamelom
+- minijaturni osigurači, koji se neposredno ugrađuju na neke prijemnike
 - niskonaponski topljivi osigurači velike prekidne moći, koji se nazivaju i instalacionim visokoućinskim osiguračima ili NV-osiguračima.
 
 -Osigurači tipa D
 
+Osigurači tipa D upotrebljavaju se u kućnim električnim instalacijama i napravama za napone 220, 240, 380 i 415 V (prema IEC standardu) isključivo za jednosmjerne ili isključivo naizmjenične ili obje vrste struja a za jačine struje do 100 A.
+Često se nazivaju instalacionim osiguračima. Izrađuju se u dva osnovna oblika: za priključak sa prednje i za priključak sa zadnje strane. Svaki od ovih oblika ima četiri osnovna dijela:
+podnožje, kalibracioni prsten, umetak i kapu.
 
+
+
+Prema IEC standardu i drugim važećim standardima izrađuju se četiri veličine podnožja osigurača za četiri vrijednosti nazivnih struja, i to:
+-D II
+-D III
+-D IV 
+-D V
+
+Prema veličini podnožja određuje se i veličina osigurača. Podnožje D II izrađuje se za struju od 25 A. Podnožje D III izrađuje se za struje do 63 A zbog čega ima nešto veće dimenzije. Podnožje D V izraduje se za nominalne struje do 100 A.
+
+Prema upotrebi ili po obliku razlikuju se sljedeća podnožja osigurača:
+- podnožje za priključivanje sa prednje strane (univerzalno podnožje ili UZ)
+ Upotrebljava se za razvodne table sa šemiranjem na prednjoj površini ali se na tabli buše otvori za      dovodne provodnike.
+- podnožje za priključivanje sa zadnje strane (TZ podnožje)
+Upotrebljava se za razvodne table kada se priljučak izvodi iza table.
+- podnožje za ugradivanje u razvodne uređaje i sl. (EZ podnožje)
+Ugrađuje se u razne aparate u kućanstvima.
+- podnožje za vazdušni vod (FZ podnožje)
+ Upotrebljava se za kućne priključke.
+
+Kalibracioni prsten je zamjenljivi dio podnožja osigurača. Uloga prstena je da onemogući umetanje topljivog umetka za jaču struju od one za koju je strujni krug predviđen i izveden. Kalibracioni prsten ima na gornjoj površini označenu visinu nazivnog napona i nazivne jačine struje. Ova je površina obojena propisanom bojom koja odgovara nazivnoj struji.
+
+Također se i topljivi umetci označavaju bojama, koje odgovaraju i boji kalibracionog prstena. Boje treba da spriječe umetanje topljivih umetaka veće nazivne struje nego što odgovara prstenu montiranom u držacu (osnovi).
+
+Standardne boje topljivih umetaka i kalibracionog prstena navedene su u Tabeli 9.4.
+
+
+
+
+
+
+
+
+
+
+
+
+  Izborom ovih konstrukcionih dimenzija, umetak za veću nominalnu struju, ne može da uđe u kalibracioni prsten za manju nominalnu struju, niti može kapa da se uvrne. Ali obrnuto: u određeni prsten mogu se staviti svi umetci manje vrijednosti, što je omogućeno s obzirom da takva zamjena ne predstavlja nikakvu opasnost.
+
+  Oznaka „D“ u nazivu instalacionih osigurača pokazuje da je strujna nezamjenjivost postignuta upotrebom raznih dijametara (D), kalibracionog prstena i vrata umetka.
+
+  Sigurnost protiv kratkog spoja je svojstvo osigurača da bez mehaničkog i termičkog razaranja elemenata osigurača izdrži struju kratke veze u kolu u kome je osigurač uključen.
+
+  Snaga prekida je ona snaga sa najvećom strujom koju osigurač može da prekine pod nazivnim naponom i to najvećom strujom, a da se ne izazove mehaničko i termičko razaranje elemenata osigurača, kao i da se ne pojavi trajan luk i izbijanje plamena. Struja snage prekida je znatno manja od struje kratkog spoja. Ona iznosi od 4 do 16 kA, dok su struje kratkog spoja od 250 do 12 000 A.
+
+-Osigurač tipa B
+
+  Osigurači tipa B su kalibracioni osigurači, koji se sastoje od dvije cilindrične kapice i topljivog umetka. Standardni nominalni napon ovih osigurača je 250 V, a nominalne struje: 5, 10, 16, 31.5 i 63 A.
+
+  Izrađuju se samo za naizmjeničnu struju. Strujna nezamjenjivost je postignuta određenim dimenzijama kape za svaku vrijednost nazivne struje.
+
+  Struja topljenja umetka za ove osigurače iznosi 2,5xIn  dok je vrijeme djelovanja od
+16 do 28 sekundi u ovisnosti od vrijednosti nominalne struje umetka.
+
+  Topljivi umetak određene nazivne struje ne može se zamjeniti topljivim umetkom veće nazivne struje bez zamjene kape. Dijelovi pod naponom nisu pristupačni dodiru kada je osnova osigurača instalirana i priključena na normalnu upotrebu i snabdjevena topljivim umetkom i kapom.
+
+-Osigurači tipa N
+
+Nožasti osigurači tipa N se upotrebljavaju na mjestima u električnoj mreži gdje se po proračunu očekuje velika snaga kratkog spoja pa ugrađeni osigurači moraju imati veliku prekidnu moć. 
+Sastoje se iz:
+-osnove ili podnožja
+-topljivog umetka ili patrone
+
+  NV topljivi umetci se upotrebljavaju kao najpouzdanija a ekonomična zaštita kablovskih i instalacionih vodova od manjih preopterećenja i velikih kratkospojnih struja.
+  Tijelo topljivog umetka je od kvalitetnog materijala, izuzetno otpornog na temperaturna preopterećenja. Kontaktni noževi su od bakra zaštićeni slojem srebra ili nikla. U unutrašnjosti keramičkog tijela smješten je bakarni topljivi element koji je tačkasto zavaren na dva kontaktna noža. Prostor oko topljivog elementa popunjuje kvarcni pijesak.
+  NV osigurači izrađuju se u više veličina podnožja. Podnožje se sastoji od temeljne izolacione ploče sa kontaktnim viljuškama i priključnim stezaljkama.
+  Osigurači tipa N imaju svojstva velike prekidne moći (preko 100kA), namjenjeni su prekidanju velikih struja pri preopterećenju ili kod kratkog spoja pa se često zovu i niskonaponski visokoučinski osigurači (NV osigurači). Najčešća upotreba ovih osigurača je u industriji i distributivnim mrežama ( u blizini trafostanica, tj. tamo gdje se očekuje velika struja kratkog spoja).
+
+--Podjela osigurača prema karakteristikama djelovanja
+
+A.Normalni (brzi) osigurači
+
+  Brzi osigurači imaju nedostatak što ne dozvoljavaju dobro iskorištenje presjeka vodiča. Bolje iskorištenje vodiča u takvim slučajevima se postiže izborom tromih osigurača.
+
+Prema IEC standardima vrijeme djelovanja normalnih topljivih umetaka mora biti kraće od vrijednosti u Tabeli 9.5:
+
+
+
+  Također, vrijeme djelovanja normalnih topljivih umetaka ne smije biti manje od 10 s, sa strujom ispitivanja 1,75 puta nazivna struja. Pri ukljucivanju električnih motora struja pri pokretanju asinhronih motora sa kratko vezanim rotorom dostiže 4 do 8 puta veću vrijednost od nazivne struje.
+
+
+
+  Iz ovog posmatranja uočava se da će brzi osigurač, čija nazivna struja ima blisku vrijednost nazivnoj struji motora, neizostavno pregorjeti prije nego što struja pokretanja opadne na vrijednost nazivne struje, zbog čega se mora birati jači osigurač ili pribjeći drugim sredstvima da bi osigurač izdržao struju pokretanja, npr. izborom osigurača za puštanje motora u rad. Jači osigurač povlači zamjenu provodnika većeg presjeka, što opet vodi ka nedovoljnom iskorištavanju provodnika.
+
+  Kada znamo vrijednost nazivne struje motora, potezne struje i vrijeme njenog trajanja, prema termičkoj karakteristici za trome osigurače dobijene od proizvođača, biramo nazivnu struju osigurača. Dalje prema izabranoj vrijednosti nazivne struje osigurača biramo presjek vodiča za priključak motora.
+
+
+
+B.Tromi osigurači
+
+Prema IEC standardu vrijeme djelovanja tromih topljivih umetaka mora biti duže od vrijednosti datih u predhodnoj tabeli. Također, vrijeme djelovanja topljivih umetaka ne smije biti duže od 6 s, sa strujom ispitivanja 5 puta nazivna struja.
+
+  Upotreba tromih umetaka dolazi u obzir zbog slijedećih pojava: uključi li se veće sijalično opterećenje ili električni motor, tada nastupa strujni udar. U prvom slučaju, strujni udar nastupa zbog manjeg otpora koji ima sijalično vlakno u hladnom stanju. Ova razlika otpora dostiže i desetorostruke vrijednosti, zbog čega pri uključivanju sijalice pojavljuje se struja deset puta veća od nazivne vrijednosti, a sa isijavanjem vlakna naglo opada na nazivnu vrijednost. Vrijeme trajanja ove udarne struje iznosi ispod desetog dijela sekunde, ali je dovoljno da se istopi žica u brzom umetku. Ovo znači da brzi umetak ne može osigurati sijalično električno kolo ako njegovo nazivno opterećenje odgovara nazivnoj struji osigurača.
+
+
+   Zbog ovoga se mora birati umetak za jaču struju, a samim tim mora se povećati i presjek provodnika, koji je imao već dovoljnu dimenziju, a sada je povećan samo zbog umetka za jaču struju. Iz ovog se zaključuje da je provodnik neiskorišten, jer je uzet veći presjek zbog većeg osigurača, a ovaj je uzet u većoj dimenziji da osigura istovremeno uključivanje većeg sijaličnog opterečenja.
+
+C.Ultrabrzi osigurači
+
+  Prema IEC standardu u elektronskim uređajima za zaštitu od kratkih spojeva upotrebljavaju se ultrabrzi osigurači koji se najčešće stavljaju redno (serijski) sa diodama i tiristorima.
+
+D.Osigurači velike prekidne moći (tzv. NVO osigurači ili visokoučinski osigurači)
+
+Razvojem razvodnih mreža dolazi se do mreža velikih snaga u raznovrsnim industrijskim pogonima. U tim instalacijama javlja se potreba da osigurači budu znatno iznad 200 A, kao i da snage prekida budu veće. Ove dimenzije uvjetuju drugu konstrukciju topljivih osigurača od one koja je razrađena za instalacione topljive osigurače. Ovom se zahtjevu udovoljilo razvojem topljivih osigurača velike prekidne moći. Njihov topljivi umetak ima oblik cijevi, obično pravougaonog oblika pa se nazivaju i „cjevastim osiguračima“.         Zbog velike prekidne moći ovi se osigurači nazivaju i „visokoučinskim osiguračima“, označavaju se sa „NV“ – niskonaponski visokoučinski. 
+Ovi se osigurači upotrebljavaju za napone 220, 380, 500, 600 i 900 V a za struje u granicama od 2 do 1250 A.
+
+AUTOMATSKI OSIGURAČI
+
+  Mahana topljivih osigurača u kućnim i fabričkim instalacijama je ta što se umetak, kada pregori, mora mijenjati.
+
+  Nov umetak ne samo da košta, vec zahtijeva vrijeme za izmenu, a pored toga i držanje rezervnog umetka. U slučaju da se nema pri ruci odgovarajući umetak, upotrebljava se bakarna žica, čime u stvari osigurač gubi na svome značaju, zbog čega prilikom jakih kratkih spojeva u kućnim instalacijama dolazi do isključenja glavnog osigurača ili priključnog osigurača na mreži. Ove mahane osigurača otklonjene su konstrukcijom instalacionog automatskog osigurača.
+
+  Inastalacioni automatski osigurači su elementi koji prekidaju električno kolo pri određenom opterečenju a da se ne vrši uništavanje materijala. Ovi se osigurači izraduju za struje: 6, 10, 16, 20 i 25 A i napone 220 i 380 V.
+
+  Ovi osigurači imaju dva aktivna člana (okidača): elektromagnet i bimetal. Elektromagnetni član gotovo trenutno isklapa strujni krug ako se pojavi nadstruja nekoliko puta veća od nazivne struje osigurača (npr. 5xln). Elektromagnet se sastoji od namotaja i jezgre. Struja kratkog spoja u namotu stvara elektromagnetnu silu koja privuče jezgru, čime se oslobađa opruga koja svojom silom rastavi kontakte i izazove prekid strujnog kola. Bimetalni član djeluje kod struja preopterećenja i znatno sporije. Bimetal je dobijen spajanjem dviju metalnih traka sa različitim temperaturnim koeficijentom širenja. Struja preopterećenja zagrijava bimetalnu traku, ona se savija na stranu metala sa manjim temperaturnim koeficijentom, oslobađa oprugu koja svojom sjlom rastavi kontakte i izaziva prekid strujnog kola.
+
+  Automatski osigurač izdržava strujne udare i opterečenja sve dok oni ne postanu opasni po zaštićeni provodnik, čime omogučava dobro iskorištenje provodnika.
+
+  Pri upotrebi osigurača mora se vrijeme njegovog isključenja tako podesiti da osigurač ne isključi strujni krug pri pokretanju potrošača. Vrijeme isključenja osigurača mora biti takvo da osigurač izdrži odgovarajuću struju pokretanja potrošača.
+
+Pogrešan izbor osigurača izaziva slijedeće probleme:
+-onemogućuje zaštitne mjere od previsokog napona dodira
+-preopterečenjem vodiča, a time prekomjernim zagrijavanjem, može nastati požar
+
+  Ako se ne primjeni princip selektivnosti, dogodiće se da zbog male greške na perifernom potrošaču jači osigurač izbaci veći dio objekta.
+Izbor osigurača u niskonaponskim inastalacijama
+
+  Struja provodnika pri normalnom radu električne instalacije ( IB) mora biti manja od nazivne struje osigurača ili nazivne vrijednosti struje djelovanja uređaja za zaštitu od preopterećenja strujnog kola provodnika ( In ), a ta vrijednost mora biti manja od trajno dozvoljene struje provodnika ( Iz ).
+
+Radna karakteristika nadstrujnog zaštitnog uređaja (osigurača), koji štiti vod od preopterećenja, mora ispuniti dva uvjeta:
+
+IB ≤ In ≤ Iz
+I2 ≤ 1.45 Iz 
+
+gdje su: IB –pogonska struja strujnog kruga
+                In –nazivna struja zaštitnog uređaja
+                Iz – trajno podnosiva struja voda
+                I2 –struja koja osigurava pouzdano djelovanje zaštitnog uredjaja (veća ispitna struja)
+
+Za gl-osigurače i LS prekidače tipa L struja I2 je definirana u Tabeli 9.7.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.Definisanje razvodnih ormara
 
