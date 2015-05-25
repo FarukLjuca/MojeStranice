@@ -17,7 +17,7 @@
     <h2 class="plavobijelo">Novosti</h2>
     <div id="novosti">
         <div class="headerzlato"></div>
-        <?php include("servisi/novosti.php"); ?>
+        <?php include("servisi/novostiMySql.php"); ?>
     </div>
     <footer>
         &copy; 2015 Milenijum-Soft d.o.o. Sarajevo

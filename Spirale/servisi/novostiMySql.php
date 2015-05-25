@@ -1,12 +1,10 @@
 <?php
-//Popunjavanje
-
     $veza = new PDO("mysql:dbname=milenijumsoft;host=localhost;charset=utf8", "Faruk", "tajna");
     $veza -> exec("set names utf8");
 
-    $novosti = $veza -> query("SELECT naslov, tekst, detaljnijiTekst UNIX_TIMESTAMP(vrijeme) vrijeme2, autor
+    $novosti = $veza -> query("SELECT naslov, tekst, detaljnijiTekst, UNIX_TIMESTAMP(datumObjave) datum, autor, slika
                                 FROM novosti
-                                ORDER BY vrijeme desc");
+                                ORDER BY datumObjave desc");
 
     if (!$novosti) {
         $greska = $veza->errorInfo();
@@ -16,35 +14,18 @@
 
     $novostiNiz = $novosti->fetchAll();
 
-    foreach ($vijestiNiz as $vijest) :
-
-        $opis = "";
-        $detaljnije = "";
-        $imaDetaljnije = false;
-
-        for ($j=4; $j<count($sadrzajFajla);$j++) {
-            if($sadrzajFajla[$j] == "--\r\n" || (strpos($sadrzajFajla[$j], "--") && strlen($sadrzajFajla[$j]) == 3)) {
-                $imaDetaljnije = true;
-                continue;
-            }
-            if ($vijest['detaljnijiTekst'] == false) {
-                $opis .= " ".$sadrzajFajla[$j];
-            }
-            else {
-                $detaljnije .= " ".$sadrzajFajla[$j];
-            }
-        }
-    ?>
+    foreach ($novostiNiz as $vijest) :
+?>
     <div class="novost">
-        <div class="<?php if($sadrzajFajla[3] == "\r\n") echo "novostiTekstBezSlike"; else echo "novostiTekst"; ?>">
-            <p class="maliParagraf"><?=htmlentities($sadrzajFajla[0])?><br>
-            Autor: <?=htmlentities($sadrzajFajla[1])?></p>
-            <a class="vise" style="cursor: pointer; visibility: <?php if($imaDetaljnije == true) print "visible"; else print "hidden"; ?>" onclick="otvoriUrlAsinhrono('NovostDetalji.php?naslov=<?=urlencode(ucfirst(strtolower($sadrzajFajla[2])))?>&tekst=<?=urlencode($detaljnije)?>&opis=<?=urlencode($opis)?>&datum=<?=urlencode($sadrzajFajla[0])?>&autor=<?=urlencode($sadrzajFajla[1])?>&slika=<?=urlencode($sadrzajFajla[3])?>')">Detaljnije</a>
-            <h3><?=ucfirst(strtolower(htmlentities($sadrzajFajla[2])))?></h3>
-            <p><?=$opis?></p>
+        <div class="<?php if(true == is_null($vijest['slika'])) echo 'novostiTekstBezSlike'; else echo 'novostiTekst'; ?>">
+            <p class="maliParagraf"><?=htmlentities(date("d.m.Y. (h:i)", $vijest['datum']))?><br>
+            Autor: <?=htmlentities($vijest['autor'])?></p>
+            <a class="vise" style="cursor: pointer; visibility: <?php if(!is_null($vijest['detaljnijiTekst'])) print "visible"; else print "hidden"; ?>" onclick="otvoriUrlAsinhrono('NovostDetalji.php?naslov=<?=urlencode(ucfirst(strtolower($vijest['naslov'])))?>&tekst=<?=urlencode($vijest['detaljnijiTekst'])?>&opis=<?=urlencode($vijest['tekst'])?>&datum=<?=urlencode(date("d.m.Y. (h:i)", $vijest['datum']))?>&autor=<?=urlencode($vijest['autor'])?>&slika=<?=urlencode($vijest['slika'])?>')">Detaljnije</a>
+            <h3><?=ucfirst(strtolower(htmlentities($vijest['naslov'])))?></h3>
+            <p><?=$vijest['tekst']?></p>
         </div>
-        <?php if($sadrzajFajla[3] != "\r\n"): ?>
-        <img src="<?=htmlentities($sadrzajFajla[3])?>" alt="Slika za novost kompanije Milenijum-Soft">
+        <?php if(false == is_null($vijest['slika'])) : ?>
+        <img src="<?=htmlentities($vijest['slika'])?>" alt="Slika za novost kompanije Milenijum-Soft">
         <?php endif; ?>
         <div class="zlato"></div>
     </div>
